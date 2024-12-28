@@ -1,0 +1,333 @@
+/* about us banner starts */
+.bg-about-image {
+    background: url('../images/aboutusnewbanner.jpg') no-repeat;
+    background-size: cover;
+    /* height: 36rem; */
+    width: 100%;
+}
+
+
+.mg-top-second-text {
+    margin-top: 60px;
+}
+
+.bg-red {
+    background-color: #ef4535;
+    opacity: 0.9;
+}
+
+.pad-bot {
+    padding-bottom: 75px;
+}
+
+/* about us banner ends */
+
+/* Dr.Jasbir-part starts */
+
+.apn-health {
+    margin-top: 100px;
+}
+
+
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-22 {
+    line-height: 22px;
+}
+
+.bg-grey {
+    background-color: #e6ebef;
+}
+
+.pg-top {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.mont-l-16 {
+    font-family: 'montserrat-light';        
+    font-size: 16px;
+    color: #27282f; 
+}
+/* Dr.Jasbir-part starts */
+
+/* Navik milestone Starts */
+.navik-milestones { 
+    margin-top: 150px;
+}
+
+/* Navik milestone Ends */
+
+
+/* ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    border-left: 1px dashed #a3aebc;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+} */
+/* ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    content: url('../images/aboutuscheck_red.png');
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+} */
+
+.navik-milestones {
+     /* padding-top: 160px; */
+     margin-top: 100px;
+     margin-bottom: 100px;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    border-left: 1px dashed #a3aebc;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    width: 2px;
+    height: 80%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: 'montserrat-regular';
+    font-size: 20px;
+    color: #27282f; 
+}
+
+ul.timeline > li > h4 {
+    font-family: 'montserrat-medium';
+    font-size: 24px;
+    color: #27282f; 
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    content: url('../images/aboutuscheck_red.png');
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline > li.timelineli3:before {
+    content: url('../images/aboutuscheck_grey.png');
+}
+
+.borderTop{
+    width: 40%;
+    border-top: 1px dashed #a3aebc;
+    position: absolute;
+    top: 26px;
+    left: 246px;
+}
+
+.ImgOverText {
+    font-family: 'montserrat-medium';
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 26px;
+    transform: translate(-50%, -50%);
+}
+.overlay1 {
+    position: absolute;
+    left: 100px;
+}
+
+.overlay2 {
+    position: absolute;
+    left: 70px;
+}
+
+.timelineTop {
+    background: url(../images/aboutusarrow_red.png) no-repeat 0 0;
+    display: block;
+    width: 100%;
+    height: 52px;
+}
+
+.timelineTop.grey {
+  
+    background: url(../images/aboutusarrow_grey.png) no-repeat 0 0 ;
+}
+
+.CMEPlanText {
+    font-size: 46px;
+    color: #27282f;
+    font-family: 'montserrat-medium';
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tiled-row{
+    position: relative;
+}
+ .jsr-about-first { display: none;}
+ .jsr-about-wrap { 
+     display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+}
+ .title-wrap .mont-l-24{
+    margin-bottom: 30px;
+ }
+ .descr-wrap .mont-l-18{
+     margin-bottom: 20px;
+ }
+
+@media screen  and (max-width:1200px) {
+ 
+    .jsr-about-first { display: block;}
+    .jsr-about-wrap{ display: none;}
+}
+
+@media screen and (min-width:1000px) and (max-width:1024px) {
+    .borderTop {
+        width: 30%;
+        position: absolute;
+        left: 80%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .timeLinescroll{
+        display: -webkit-box;
+        /* overflow: scroll; */
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        height:100%; 
+    }
+    .borderTop{
+        width: 40%; 
+        border-top: none;
+        position: absolute;
+        top: 25px;
+        left: 68%;
+    }
+
+    .timelineTop {
+        margin-left: 15%;
+    }
+    .overlay1 {
+        position: absolute;
+        left: 48%;
+    }
+    ul {
+        margin-left: 10%;
+    }
+    .overlay2 {
+        position: absolute;
+        left: 46%;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .apn-health {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .navik-milestones {
+        margin-top: 70px;
+    }
+    .jsr-about-first {
+        display: block;
+        margin: 0 auto 40px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .jsr-about{
+       
+    }
+ 
+}
+
+
+/* 
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+  
+}
+
+.card {
+    display: inline-block;
+  }
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  
+ 
+}
+.card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+}
+
+.card {
+  border: 1px solid white;
+  width: 100%;
+  height: 300px;
+  background: black;
+}
+
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+  height: 300px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+} */
+
+@media only screen and (max-width: 576px) {
+    .navik-milestones { position: relative;}
+    .icon-swipe{
+        width: 60px;
+        height: 55px;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        background: url(../images/swipe.gif) no-repeat 0 0;
+    }
+ }

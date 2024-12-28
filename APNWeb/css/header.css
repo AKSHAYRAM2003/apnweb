@@ -1,0 +1,161 @@
+body {
+      overflow-x: hidden;
+      padding-top:80px;
+}
+.apn-nav-image {
+  max-width: 160px;
+  margin-left: 20px;
+}
+.navbar{
+  min-height:80px;
+  z-index: 999;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+}
+.navbar-light .nav-item>.nav-link.active {
+    background-color: #ef4535;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.nav-item {
+    padding: 2px 0px;
+    color: #27282f;
+}
+
+.nav-link {
+    font-family: 'montserrat-medium';
+    font-size: 13px;
+    padding: 2px 10px;
+}
+
+.navbar-button {
+  background-color: #ef4535;
+  color: #fff;
+  font-family: 'montserrat-regular';
+  font-size: 14px;
+  padding:3px 10px;
+}
+
+.calBtnHead {
+  /* background-color:#cc3a2c; */
+  background-color: #f3f3f3;
+  color: #333;
+}
+.calBtnHead.no-click{
+  cursor: default !important;
+}
+.btn.support, .btn.calBtnHead {
+  position: relative;
+  padding-left: 33px;
+}
+ 
+.btn.support:hover{
+  color: #fff !important;
+}
+.btn.calBtnHead:hover{
+  color: #333 !important;
+}
+.btn.support img, .btn.calBtnHead img {
+  position: absolute;
+  left: 7px;
+  top: 6px;
+}
+.scrollup {
+  background-color: #ef4535;
+  color: white;
+  cursor: pointer;
+  padding: 12px 15px 12px 15px;
+  width: 55px;
+  height: 55px;
+  border-radius: 3px;
+  position: absolute;
+  text-align: center;
+  right: -80px;
+  bottom: 0;
+}
+
+.scrollup:hover {
+  color: white;
+}
+
+.dropdown-menu {
+  left: 17%;
+  background-color: #ef4535;
+  font-size: 13px;
+  font-family: 'montserrat-medium';
+  min-width: 0px;
+  padding: 0;
+  padding: 10px;
+    border: 0;
+
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #ef4535;
+}
+
+.dropdown-item {
+  color: #fff;
+  border-radius: 4px;
+}
+@media screen and (max-width: 1400px) {
+  .scrollup{
+    right: -60px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
+ 
+
+.btn.lg
+  .navbar-button{ 
+    font-size: 7px;
+  }
+
+  .support{
+    padding: 5px;
+  }
+  .margTop25 .apn-bannertextL {
+    font-size: 22px;
+  }
+  .margTop25 .apn-bannertextM {
+    font-size: 22px;
+  }
+  .margLeft22 .demo-form-fill {
+    font-size: 17px;
+  }
+  .apn-bannerFormText{
+    margin-top: -2%;
+  }
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #28272f;
+  padding: 4px 12px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+@media screen and (min-width: 1025px)  { 
+    .navbar-expand-lg .navbar-nav {
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 991px)  { 
+  .btn.support, .btn.calBtnHead {
+    width: 100% !important;
+    text-indent: 0 !important;
+  }
+  .btn.calBtnHead.ml-2{
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+  }
+}
+ 
+
+
+
+
+ 

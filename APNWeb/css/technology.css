@@ -1,0 +1,526 @@
+
+.bg-image {
+    background: url("../images/technology-banner.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 160px;
+    padding-top: 75px;
+}
+
+.technology-section {
+    background:#e6ebef;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.technology-section a {
+	font-family: 'montserrat-regular';
+    font-size: 14px;
+	color:#f0584b;
+}
+
+.technology-section .row {
+}
+
+/* .caption {
+    left: 17%;
+    position: absolute;
+    top: 26%;
+    color: #28272f;
+} */
+
+.caption span {
+	font-family: 'montserrat-medium';
+    font-size: 30px;
+}
+
+.caption h4 {
+	font-family: 'montserrat-light';
+    font-size: 30px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  /* Make image responsive */
+  display: block;
+  width: 100%;
+  max-height: auto:
+}
+
+.patents-text {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.card-deck .card {
+	background: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	img {
+		width: 100%;
+	}
+}
+
+[class*="technology-row"] {
+	margin-bottom: 1em;
+    justify-content: center;
+}
+
+/* [class*="col-"] {
+	background: #efefef;
+	border: 1px solid #ddd;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+} */
+
+.margBottN25{
+	margin-bottom: 15px;
+}
+
+.box-part1 {
+    background:#FFF;
+    border-radius: 5px;
+    padding:60px 10px;
+    margin:30px 0px;
+    height: 470px;
+}
+
+.box-part2 {
+    background:#FFF;
+    border-radius: 5px;
+    padding:60px 10px;
+    margin:30px 0px;
+    height: 490px;
+}
+
+.box-part3 {
+    background:#FFF;
+    border-radius: 5px;
+    padding:60px 10px;
+    margin:30px 0px;
+    height: 475px;
+}
+
+.box-part4 {
+    background:#FFF;
+    border-radius: 5px;
+    padding:60px 10px;
+    margin:30px 0px;
+    height: 535px;
+}
+    
+
+.technology-patents-box-h4 {
+    font-family: 'montserrat-regular';
+    font-size: 20px;
+    color: #27282f;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.technology-patents-box-h5 {
+    font-family: 'montserrat-light';
+    font-size: 20px;
+    color: #27282f;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.technology-patents-box-h6-scope {
+    font-family: 'montserrat-regular';
+    font-size: 14px;
+    color: #27282f;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.badge-technology-patents-scope {
+    font-family: 'montserrat-light';
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #ef4535;
+    width: auto;
+    border-radius: 2px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 3px 4px;
+    width: auto !important;
+    
+}
+
+.technology-patents-box-h6-fillings {
+    font-family: 'montserrat-regular';
+    font-size: 14px;
+    color: #27282f;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.badge-technology-patents-fillings {
+    font-family: 'montserrat-light';
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #ef4535;
+    padding: 3px 4px;
+    width: auto !important;
+    border-radius: 2px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+.tp{
+	font-family: 'montserrat-medium';
+    font-size: 13px;
+    color: #27282f;
+    margin-left: 0px;
+    line-height: 12px;
+}
+.tp span{
+    display: block;
+    font-family: 'montserrat-light';
+    font-size: 14px;
+}
+.margTopN3{
+	margin-top: -3px;
+}
+.technology-patents-box-cal {
+    display: block;
+    width: auto;
+    position: absolute;
+    right: 20px;
+    bottom:20px;
+    padding-left: 23px;
+}
+
+.technology-patents-box-cal-extend {
+    display: block;
+    width: auto;
+    position: absolute;
+    right: 20px;
+    bottom:20px;
+    padding-left: 23px;
+}
+
+.calImg{
+    width: 18px;
+    height: 21px;
+    margin: 0 !important;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.scope1 {
+   margin-bottom: 0;
+}
+
+.scope2 {
+    margin-bottom:0;
+}
+.scope3 {
+    margin-bottom: 0;
+}
+.scope4 {
+    margin-bottom: 0;
+}
+.scope5 {
+    margin-bottom: 0;
+}
+
+.scope6 {
+    margin-bottom: 0;
+}
+
+.scope7 {
+    margin-bottom: 0;
+}
+.scope8 {
+    margin-bottom: 0;
+}
+
+.scope9 {
+    margin-bottom:0;
+}
+
+.scope10 {
+    margin-bottom:0;
+}
+
+.scope11 {
+    margin-bottom: 0;
+}
+
+.scope12 {
+    margin-bottom: 0;
+}
+
+.fillings1 {
+    margin-bottom: 0;
+}
+
+.fillings2 {
+    margin-bottom: 0;
+}
+
+.fillings3 {
+    margin-bottom: 0;
+}
+
+.fillings4 {
+    margin-bottom:0;
+}
+
+.fillings5 {
+    margin-bottom: 0;
+}
+.fillings6 {
+   margin-bottom: 0;
+}
+
+.fillings7 { 
+    margin-bottom: 0;
+}
+
+.fillings8 {
+    margin-bottom: 0;
+}
+
+.fillings9 {
+    margin-bottom: 0;   
+}
+
+.fillings10 {
+    max-resolution: bottom 0;;
+}
+
+.fillings11 {
+    margin-bottom: 0;
+}
+
+.fillings12 { 
+    margin-bottom: 0;
+}
+ 
+[class^="box-part"]{
+    padding:  30px 15px 70px !important;
+    height: 450px  !important;
+    margin: 0px 0px 0px !important;
+    position: relative;
+    
+}
+ 
+[class^="box-part"]  .badge-technology-patents-scope,
+[class^="box-part"]  .badge-technology-patents-fillings
+{
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+}
+ 
+.row-eq-height {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+
+  @media screen and (max-width: 1400px) {
+    [class^="box-part"] {
+     
+        height: 500px !important;
+     
+    }
+    .caption h4 {
+ 
+        /* width: 60%; */
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 999px) {  
+	/* .caption {
+		position: absolute;
+        top: 18%;
+    } */
+    .caption span {
+        font-size: 25px;
+    }
+
+    .caption h4 {
+        font-size: 25px;
+    }
+
+    .technology-patents-box-cal-extend {
+        width: 80%;
+    }
+
+    .technology-patents-box-h6-scope, .technology-patents-box-h6-fillings {
+        font-size: 12px;
+    }
+    .badge-technology-patents-fillings {
+        width: 23%;
+    }
+    .technology-patents-box-h4 {
+         font-size: 15px;
+    } 
+    .technology-patents-box-h5 {
+        font-size: 15px;
+    }
+    .tp {
+        font-size: 10px;
+    }
+    .patents-text .mont-m-45, .mont-el-45 {
+        font-size: 28px;
+    } 
+   
+    .box-part1 {
+        height: 485px;
+    }
+    .box-part2 {
+        height: 500px;
+    }
+    .box-part3 {
+        height: 475px;
+    }
+    .box-part4 {
+        height: 535px;
+    }
+    .badge-technology-patents-scope {
+        width: 28%;
+    }
+    .badge-technology-patents-fillings {
+        width: 35%;
+    }
+    .technology-patents-box-cal {
+        width: 50%;
+    }
+    
+    [class^="box-part"]{
+        height: 500px !important;
+    }
+    .technology-patents-box-h4, .technology-patents-box-h5 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+}
+@media screen and (min-width:1000px) and (max-width:1024px) {
+    /* .caption {
+		position: absolute;
+        top: 18%;
+    } */
+
+    [class^="box-part"]{
+        height: 460px !important;
+    }
+    .caption span {
+        font-size: 25px;
+    }
+
+    .caption h4 {
+        font-size: 25px;
+    }
+
+    .technology-patents-box-h6-scope, .technology-patents-box-h6-fillings {
+        font-size: 12px;
+    }
+    .badge-technology-patents-fillings {
+        width: 23%;
+    }
+    .technology-patents-box-h4, .technology-patents-box-h5 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .tp {
+        font-size: 10px;
+    }
+    .patents-text .mont-m-45, .mont-el-45 {
+        font-size: 38px;
+    } 
+    .scope1 {
+        margin-bottom: 0px;
+    }
+    .scope2 {
+        margin-bottom: 0px;
+    }
+    .scope4 {
+        margin-bottom: 0;
+    }
+    .scope5 {
+        margin-bottom: 0;
+    }
+
+    .scope8 {
+        margin-bottom: 0px;
+    }
+    .scope9 {
+        margin-bottom: 0px;
+    }
+    .scope11 {
+        margin-bottom: 0px;
+    }
+    .scope12 {
+        margin-bottom: 0px;
+    }
+    .box-part1 {
+        height: 428px;
+    }
+    .box-part2 {
+        height: 448px;
+    }
+    .box-part3 {
+        height: 430px;
+    }
+    .box-part4 {
+        height: 485px;
+    }
+}
+@media screen and (max-width: 767px){
+    [class^="box-part"] {
+        height: auto !important;
+    }
+    .calImg {
+        width: 22px;
+        height: 24px;
+        left: -5px;
+        top: 6px;
+    }
+}
+@media screen and (min-width:416px) and (max-width:640px) {
+    .bg-image{
+        padding-bottom: 80px !important;
+    }
+    .technology-section {
+         padding-top: 0 !important;
+         padding-bottom: 50px !important;
+    }
+    .technology-section .row {
+	    padding-bottom: 0px !important;
+     }
+     .patents-text {
+         margin-bottom: 0 !important;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 415px) { 
+	/* .caption {
+		position: absolute;
+	    top: 12%;
+	} */
+
+	.caption span {
+        font-size: 25px;
+    }
+
+
+    .caption h4 {
+        font-size: 25px;
+    }
+	
+
+}

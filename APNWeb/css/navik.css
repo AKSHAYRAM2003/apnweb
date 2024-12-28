@@ -1,0 +1,336 @@
+/* Mapping System Starts */
+
+.bg-card {
+    background-color: #fff;
+}
+
+.bg-grey {
+    background-color: #e6ebef;
+    padding-top: 100px;
+}
+
+/* .wrapper {
+    position: relative;
+    margin-top: 82px;
+} */
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.card-right-content {
+    position: absolute;
+    left: 34%;
+}
+
+.card-over {
+    position: relative;
+    /* top: -400px;
+    left: 491px; */
+    padding: 30px 60px 40px 60px;
+    border-radius: 9px;
+}
+ 
+.navik-content {
+    line-height: 20px;
+}
+.card-feature-margin:first-child{
+    height: 70px;
+    position: relative;
+}
+.card-feature-margin:first-child img{
+     position: absolute;
+     left: 15px;
+     bottom: 0;
+}
+
+.list-display {
+    line-height: 21px;
+    width: 59%;
+}
+.list-display li{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .card-over {
+        position: static;
+    }
+}
+
+/* @media only screen and (min-width: 1200px) {
+    .card-over {
+        width: 600px;
+        right: 248px;
+        top: 0px;
+        left: 0px;
+    }
+} */
+
+/* For devive resolutions below md*/
+
+@media only screen and (max-width: 768px) {
+    .card-right-content {
+        position: relative;
+        left: 0;
+    }
+}
+
+/* Clinically Validated Starts */
+
+.clinically-validated {
+    margin-top: 125px;
+}
+
+.marg-bottom {
+    margin-bottom: 75px;
+}
+
+.successful-cryo {
+    background-color: #fff;
+    padding: 27px 37px 26px 40px;
+    border-radius: 9px;
+}
+
+.ul-margin {
+    margin-left: -14px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    list-style-image: url('../images/navik3dbullet.png');
+}
+
+ul li::before {
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.card-absolute {
+    position: absolute;
+    left: 51%;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-absolute {
+        position: static;
+    }
+    .border-radius-feature {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .successful-cryo {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width:1200px) {
+    .successful-cryo {
+        width: 125%;
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:999px) {
+    .card-absolute {
+        position: static;
+    }
+    .card-right-content {
+        position: static;
+    }
+}
+
+/* Clinically Validated Ends */
+
+/* Navik 3d Feature starts */
+
+.card-margin {
+    margin-top: 25px;
+    margin-left: 17px;
+}
+
+.card-feature-margin {
+    margin-top: 25px;
+    margin-left: 31px;
+}
+
+.card-text {
+    line-height: 19px;
+}
+
+.card-shadow {
+    box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.30);
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.navik-features {
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.feature-text {
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.padding-feature {
+    margin-bottom: 13px;
+    padding-right: 42px;
+    margin-left: 13px;
+    line-height: 22px;
+}
+
+.border-radius-feature {
+    overflow: hidden;
+    border-radius: 9px;
+    box-shadow: 1px 11px 20px 2px rgba(191, 191, 191, 0.3);
+    padding-bottom: 30px;
+}
+
+/* Navik 3d Feature Ends */
+
+/* Navik 3D differentiated Starts */
+
+.diff-icons {
+    margin-top: 100px;
+}
+.diff-icons img{
+    height: 51px ;
+}
+
+.navik-differentiated {
+    padding-top: 100px;
+}
+
+/* Navik 3D differentiated Ends */
+
+/* Navik Intellectual Starts */
+
+.lh-intellectual {
+    line-height: 18px;
+}
+
+.bg-intellectual-red {
+    color: #fff;
+    background-color: #ef4535;
+    font-size: 17px;
+    font-family: 'montserrat-light';
+}
+
+.intellectual-table {
+    margin-top: 150px;
+}
+
+.bg-dark-grey {
+    background-color: #cad2d8;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+.col-cust {
+    width: 9%;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+.table-bordered {
+    border: none;
+}
+
+.table td,
+.table th {
+    padding: 1px 1px 1px 6px;
+}
+
+.intellectual-index {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'montserrat-light';
+    background-color: #ef4535;
+    width: 11%;
+}
+
+.intellectual-text {
+    color: #27282f;
+    font-size: 17px;
+    font-family: 'montserrat-light';
+    background-color: #e6ebef;
+}
+
+.intellectual-year {
+    background-color: #cad2d8;
+    color: #27282f;
+    font-size: 17px;
+    font-family: 'montserrat-light';
+    width: 14%;
+}
+
+.intellectual {
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+
+@media only screen and (max-width: 768px) {
+    .bg-grey {
+        padding-top: 50px;
+    }
+    .clinically-validated {
+        margin-top: 60px;
+    }
+    .navik-features {
+        margin-top: 70px;
+        padding-bottom: 100px;
+    }
+    .navik-differentiated {
+        margin-bottom: 70px;
+    }
+    .reg-title {
+        margin-top: 50px;
+    }
+    .intellectual-table {
+        margin-top: 100px;
+    }
+    
+    .intellectual {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .navik-features {
+        margin-top: 70px;
+        padding-bottom: 70px;
+    }
+    .m-b-70 {
+        margin-bottom: 30px;
+    }
+    .mont-l-50 {
+        font-size:36px;
+    }
+    .mont-m-24 {
+         font-size: 18px;
+   
+    }
+    .feature-text {
+         margin-top: 8px;
+    }
+    .mont-l-20 {
+         font-size: 16px;
+     }
+}
+
+/* Navik Intellectual Ends */

@@ -1,0 +1,443 @@
+@font-face {
+    font-family: 'montserrat-extra-light';
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'montserrat-medium-italic';
+    src: url('../fonts/Montserrat-MediumItalic.ttf') format('truetype');
+}
+
+ 
+@font-face{
+    font-family: 'montserrat-semibold';
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+body {
+    position: relative;
+    font-family: 'montserrat-light';   
+    line-height: normal;
+}
+
+.mont-m-15-italic {
+    font-family: 'montserrat-light';
+    font-size: 16px;
+    color: #27282f;
+    font-style: italic;
+    
+}
+
+.mont-m-15-italic.degree {
+    font-family: 'montserrat-medium';
+    font-size: 14px;    
+}
+.mont-el-50 {
+    font-size: 50px;
+    color: #27282f;
+    font-family: 'montserrat-extra-light';
+}
+
+.mont-l-50 {
+    font-size: 50px;
+    color: #27282f;
+    font-family: 'montserrat-light';    
+}
+
+.mont-el-45 {
+    font-size: 45px;
+    color: #27282f;
+    font-family: 'montserrat-extra-light';
+}
+
+.mont-m-45 {
+    font-size: 45px;
+    color: #27282f;
+    font-family: 'montserrat-medium';    
+}
+
+.mont-l-18 {
+    font-size: 17px;
+    color: #27282f;
+    font-family: 'montserrat-light';     
+    line-height: normal;   
+}
+
+.mont-r-13 {
+    font-family: 'montserrat-regular';
+    font-size: 13px;
+    color: #27282f;    
+}
+
+.mont-r-18 {
+    font-family: 'montserrat-regular';
+    font-size: 18px;
+    color: #27282f;  
+}
+
+
+.mont-r-12 {
+    font-family: 'montserrat-regular';
+    font-size: 12px;
+    color: #27282f;    
+}
+
+.mont-l-13 {
+    font-family: 'montserrat-light';        
+    font-size: 13px;
+    color: #27282f;   
+}
+
+.mont-l-15 {
+    font-family: 'montserrat-light';        
+    font-size: 15px;
+    color: #27282f;  
+}
+
+.mont-m-13 {
+    font-family: 'montserrat-medium';        
+    font-size: 13px;
+    color: #27282f;   
+}
+
+.mont-m-14 {
+    font-family: 'montserrat-medium';        
+    font-size: 14px;
+    color: #27282f;   
+}
+.mont-l-50-red {
+    color: #ef4535;
+    font-size: 50px;
+    font-family: 'montserrat-medium';        
+}
+.mont-b-34 {
+    color: #ef4535;
+    font-size: 24px;
+    font-family: 'montserrat-bold';        
+}
+
+.mont-l-blue {
+    font-size: 18px;
+    color: #04537a;
+    font-family: 'montserrat-light';
+    line-height: 20px;
+    text-decoration: underline;
+    font-weight: 600 !important;
+}
+
+.mont-m-24 {
+    font-family: 'montserrat-medium';        
+    font-size: 24px;
+    color: #27282f;    
+}
+.mont-m-24-red {
+    font-family: 'montserrat-medium';        
+    font-size: 24px;
+    color: #ef4535;  
+}
+
+
+.mont-m-20-red {
+    font-size: 20px;
+    color: #ef4535;
+    font-family: 'montserrat-medium';
+}
+
+.mont-l-16 {
+    font-size: 16px;
+    color: #27282f;
+    font-family: 'montserrat-light';
+}
+
+
+.mont-l-24 {
+    font-family: 'montserrat-light';        
+    font-size: 24px;
+    color: #27282f; 
+}
+.mont-r-30 {
+    font-size: 29px;
+    color: #27282f;
+    font-family: 'montserrat-regular'
+}
+
+
+.mont-l-24 {
+    font-family: 'montserrat-light';
+    font-size: 24px;
+    color: #27282f;
+}
+
+.mont-m-30-red {
+    font-family: 'montserrat-medium';
+    font-size: 30px;
+    color: #ef4535;
+}
+
+.mont-l-20 {
+    font-family: 'montserrat-light';
+    font-size: 20px;
+    color: #27282f;
+}
+
+.mont-l-16 {
+    font-size: 16px;
+    font-family: 'montserrat-light';
+}
+
+
+.mont-el-50-white {
+    font-size: 31px;
+    color: #fff;
+    font-family: 'montserrat-extra-light';
+}
+
+.mont-l-50-white {
+    /* font-size: 50px; */
+    color: #fff;
+    font-family: 'montserrat-medium';
+}
+
+.mont-l-18-white {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'montserrat-light';
+}
+
+.mont-l-24 {
+    font-family: 'montserrat-light';        
+    font-size: 24px;
+    color: #27282f; 
+}
+.btn{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'montserrat-medium';   
+    border-radius: 4px;
+}
+.btn.support{
+    text-transform: none;
+}
+.btn.light{
+    font-family: 'montserrat-light';        
+    font-weight: 300;
+    margin: 5px 0 0;
+}
+.btn.light:hover{
+    font-family: 'montserrat-medium';   
+}
+
+
+
+.btn-primary{
+    background-color: #ef4535;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 3px 10px 0px #f54b3c87;
+}
+.btn-primary:hover {
+    background-color: #f51500;
+}
+.btn-primary:focus{
+    background: #d01200 !important;
+    box-shadow: 0 0px 16px rgba(255, 0, 0, 0.5) !important;
+}
+.btn.sm{
+    padding: 5px 10px;
+    font-size: 11px;
+    min-width: 90px;
+    height: 26px;
+}
+.btn.md{
+    padding: 8px 15px;
+    font-size: 14px;
+    min-width: 120px;
+    height: 40px;
+}
+.btn.lg{
+    padding: 12px 20px;
+    font-size: 16px;
+    min-width: 150px;
+    height: 48px;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: none;
+    color: #333;
+}
+.btn-transparent:hover {
+    background-color: #fafafa;
+    color:#333;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.btn-white{
+    background-color: #fff;
+    border: none;
+    color: #333;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.btn-white:hover {
+     color: #ef4535;
+}
+.button-cards .btn{
+    width: 130px !important; 
+    height: 53px !important;
+    min-width: 130px !important;
+    box-shadow: none !important;
+    margin-right: 20px;
+}
+.button-cards.disabled .btn-white{
+    box-shadow: none !important;
+    color: #333 !important;
+    font-family: 'montserrat-light' !important;  
+    cursor: default;
+}
+.button-cards.disabled .btn-white:hover{
+    box-shadow: none !important;
+    color: #333 !important;
+    font-family: 'montserrat-light' !important;  
+}
+.main-title{
+    color: #27282f;
+    font-family: 'montserrat-extra-light';
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0 0 20px;
+    letter-spacing: -2px;
+}
+.main-title span{
+    font-family: 'montserrat-medium';
+}
+.main-title span.red{
+    color: #ef4535;
+}
+.about-content-wrap{
+    padding: 0 10px 0px 70px;
+}
+.fda-img{
+    margin-bottom: 10px;
+}
+
+/*-----------*/
+#Challenges{
+    padding: 75px 0;
+}
+#Challenges .main-title{
+    text-align: center;
+    margin-bottom:50px;
+}
+.challenge-list{
+    padding: 40px 0;
+
+}
+.challenge-list-item{
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}   
+.challenge-list-item:before{
+    position: absolute;
+    left: 0;
+    top:6px;
+    content: "";
+    display: block;
+    width:15px;
+    height: 15px;
+    background: #ef4535;
+    border-radius: 40px;
+}
+
+.challenge-desc{
+
+   
+    text-align: center;
+}
+.challenge-desc-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ef4535;
+    margin: 20px 0;
+}
+
+.challenge-desc-list{
+
+}
+
+.challenge-desc-item{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.challenge-desc-item:before{
+    position: relative;
+    left: 0;
+    top:1px;
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    background: #ef4535;
+    border-radius: 40px;
+}
+
+
+.challenge-summary{
+    margin:20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.site-version{
+    font-size: 10px;
+    color: #444;
+}
+
+
+
+@media screen and (max-width:767px){
+
+    #Challenges{
+        padding: 50px 0 0px;
+    }
+    .challenge-list-item{
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .challenge-desc-title{
+        font-size: 18px;
+    }
+
+    .challenge-desc-item{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,332 @@
+#social-media-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.social-media-row {
+    padding-top:0px;
+}
+.bg-image {
+    background: url("../images/social-media-banner.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 115px;
+    padding-top: 115px;
+}
+
+.social-media-head-text {
+    /* position: absolute;
+    top: 36%;
+    left: 27%; */
+    color: white;
+    font-family: 'montserrat-medium';
+    font-size: 50px;
+}
+.social-media-row figure .img-fluid{
+    width:100%;
+}
+
+.img-title{
+    position: absolute;
+    color: #fff;
+    left: 26%;
+    right: 0;
+    top: 6%;
+}
+
+.img-title h1 {
+	font-family: 'montserrat-medium';
+	font-size: 50px;
+}
+
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 60%;
+    margin-left: -8%;
+}
+
+.entry-social {
+	margin-bottom: 30px;
+}
+.entry-social a{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.p-t-85{
+    padding-top: 86px;
+}
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 32%;
+    padding-left: 20px;
+    margin-top: 8%;
+    margin-left: -30px;
+}
+
+/* Fake image */
+.latextBor {
+    border: 1px solid #e6ebef;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: -15px;
+}
+
+.latextBor p {
+	margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.latextBor a {
+    color: #28272f;
+    text-decoration: none;
+}
+
+/* Add a card effect for articles */
+.sm-card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 0px;
+}
+
+.sm-card {
+    height: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.social-media-image {
+	width:100%;
+ }
+.sm-text1 {
+	font-family: 'montserrat-regular';
+    font-size: 24px;
+}
+
+.sm-img1 {
+	margin-top: 8%;
+    margin-left: 22px;
+
+}
+
+.sm-card {
+	border: none;
+	border-radius: none;
+}
+
+.img-textfontL {
+	font-family: 'montserrat-light';
+}
+
+.img-textfontM {
+	font-family: 'montserrat-medium';
+}
+
+.sm-para1 {
+	line-height: 20px;
+    /* text-align: justify; */
+    margin-top: 5px;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    color: #28272f;
+    width: 100%;
+}
+.sm-para2 {
+	line-height: 20px;
+    /*text-align: justify;*/
+    margin-top: 10px;
+    font-family: montserrat-regular;
+    font-size: 14px;
+    color: #28272f;
+    width: 100%;
+}
+.vp {
+	font-family: 'montserrat-medium';
+    font-size: 15px;
+    color: #28272f;
+}
+
+.tp{
+	font-family: 'montserrat-light';
+    font-size: 13px;
+    color: #6f6f72;
+}
+
+.margTopN3{
+	margin-top: -3px;
+}
+
+.latext {
+	font-family: 'montserrat-medium';
+    font-size: 15px;
+    color:#ef4535;
+}
+
+.sm-leftcolumn2 {
+	margin-left: 1%;
+	width: 70%;
+}
+
+.quoteText {
+	font-family: montserrat-regular;
+    font-size: 20px;
+    color: #ef4535;
+    margin-top: 10%;
+}
+
+.quoteTextR {
+	font-family: montserrat-regular;
+    font-size: 14px;
+    color: #28272f;
+}
+
+.conttextR {
+	font-family: montserrat-regular;
+    font-size: 14px;
+    color: #ef4535;
+}
+
+.conttext {
+	font-family: montserrat-regular;
+    font-size: 14px;
+    color: #28272f;
+}
+
+.lineH18 {
+	line-height: 18px;
+}
+hr {
+    border-top: 1px solid #e6ebef;
+    width: 100%;
+    margin-left: 3%;
+}
+
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  /* Make image responsive */
+  display: block;
+  width: 100%;
+  max-height: auto;
+}
+.banner .caption{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+	.img-title{
+		position: absolute;
+	    top: 4%;
+	}
+	 .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+        margin-left: 0%;
+    }
+    hr {
+    	width:100%;
+    }
+    .social-media-head-text {
+        /* position: absolute;
+        top: 25%; */
+    }
+    .entry-social a {
+       
+        width: auto;
+        max-width: 78px;
+    }
+   
+}
+
+@media screen and (min-width: 300px) and (max-width: 415px) { 
+	.img-title{
+		position: absolute;
+	    top: 2%;
+	}
+
+	.img-title h1 {
+		font-size: 22px;
+	}
+
+ 	.leftcolumn, .rightcolumn {   
+        width: 100%;
+    	margin-left: -2%;
+    }
+
+    hr {
+    	width:100%;
+    }
+
+    .social-media-head-text {
+        /* position: absolute;
+        top: 18px;
+        left: 22%; */
+        font-size: 25px;
+    }
+	
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 650px) { 
+    .leftcolumn {
+        width: 80%;
+        margin-left: -3%;
+    }
+
+    .rightcolumn {
+        float: left;
+        width: 100%;
+        padding-left: 0px;
+        margin-top:0px;
+        margin-left: 0px;
+    }
+
+    .footercontent {
+        font-size: 17px;
+        margin-left: 0%;
+    }
+    .footerLogo img {
+        width: 100%;
+        margin-left: -10%;
+        margin-top: 15%;
+
+    }
+}
+@media only screen and (max-width: 640px) {
+
+    #social-media-section {
+         padding-bottom: 50px !important;
+    }
+    #social-media-section .p-t-85 {
+        padding-top: 0 !important;
+        margin-left: 20px !important;
+    
+    }
+    .entry-social a {
+        
+        max-width: 65px !important;
+    }
+}
+
+
+/*@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}*/
